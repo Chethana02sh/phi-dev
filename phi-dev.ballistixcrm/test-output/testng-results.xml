@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[organisation is created]]>
+    </line>
+    <line>
+      <![CDATA[organisation name is successfully edited]]>
+    </line>
+    <line>
+      <![CDATA[Organisation is successfully deleted]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-06T20:51:47 IST" name="Default suite" finished-at="2023-02-06T20:52:11 IST" duration-ms="23538">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T20:51:47 IST" name="Default test" finished-at="2023-02-06T20:52:11 IST" duration-ms="23538">
+      <class name="com.crm.organisation.CreateEditDeleteOrganisation">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:51:47 IST" name="dbConfig" finished-at="2023-02-06T20:51:47 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:51:47 IST" name="launchTheBrowser" finished-at="2023-02-06T20:51:51 IST" duration-ms="3749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:51:51 IST" name="loginToAppln" finished-at="2023-02-06T20:51:54 IST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="createEditDeleteOrganisation()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:51:54 IST" name="createEditDeleteOrganisation" finished-at="2023-02-06T20:52:09 IST" duration-ms="14624" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[organisation is created]]>
+            </line>
+            <line>
+              <![CDATA[organisation name is successfully edited]]>
+            </line>
+            <line>
+              <![CDATA[Organisation is successfully deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createEditDeleteOrganisation -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:52:09 IST" name="logoutFromAppln" finished-at="2023-02-06T20:52:11 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:52:11 IST" name="closeTheBrowser" finished-at="2023-02-06T20:52:11 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.crm.organisation.CreateEditDeleteOrganisation@74751b3]" started-at="2023-02-06T20:52:11 IST" name="closeDBconfig" finished-at="2023-02-06T20:52:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconfig -->
+      </class> <!-- com.crm.organisation.CreateEditDeleteOrganisation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
